@@ -41,7 +41,7 @@ for (var i = 0; i < 5; i++){
         console.log('Impar');
     }
 }
-console.log(arr1);
+console.log(arr1[i]);
 
 
 
