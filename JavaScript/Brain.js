@@ -34,14 +34,14 @@ var ar = [1,2,3,4];
 console.log(ar);
 
 var arr1 = [1,2,4,10,15,18];
-for (var i = 0; i < 5; i++){
+for (let i = 0; i < 5; i++){
     if (arr1[i] % 2 == 0) {
        arr1[1] = arr1[i] + 1;
-    }else if (arr1[i] % 2 !=0){
+    }else if (arr1[i] % 2 != 0){
         console.log('Impar');
     }
 }
-console.log(arr1[i]);
+console.log(arr1);
 
 
 
