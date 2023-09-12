@@ -31,22 +31,35 @@ console.log(array3);*/
 
 //TESTANDO LOGICAS...
 
-var ar = [1,2,3,4];
-console.log(ar);
+/*var ar = [1,2,3,4];
+console.log(ar);*/
 
-var arr1 = [1,2,4,10,15,18];
-for (let i = 0; i < 5; i++){
+var arr1 = [1,2,4,10,15];
+for (let i = 0; i < arr1.length; i++){
     if (arr1[i] % 2 == 0) {
-       arr1[1] = arr1[i] + 1;
-    }else if (arr1[i] % 2 != 0){
-        console.log('Impar');
+        arr1.splice(i, 1);
+        i--;
+    } else if (arr1[i] % 2 != 0){
+        arr1[i] = arr1[i] + 1;
     }
 }
 console.log(arr1);
 
+// OBJETOS NO JAVASCRIPT
+
+var teste1 = {
+    nome : 'Gustavo',
+    email : 'gutogustavogu@gmail.com',
+    idade : '16'
+}
+console.log(teste1)
+console.log(JSON.stringify(obj));
+
+
+
 //FORMAS SEPARADAS
 
-var arr2 = [2,4,6,8,10,12];
+/*var arr2 = [2,4,6,8,10,12];
 for (var i = 0; i < arr.length; i++){
     if (arr2[i] % 2 == 0) {
         arr2[i] = arr[i] + 1;
@@ -60,9 +73,8 @@ for (var i = 0; i < arr.length; i++){
         arr3.splice(i, 1);
         i--;
         console.log(arr);
-        Window
     }
-}
+}*/
 
 
 
