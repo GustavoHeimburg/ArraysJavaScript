@@ -60,6 +60,7 @@ for (var i = 0; i < arr.length; i++){
         arr3.splice(i, 1);
         i--;
         console.log(arr);
+        Window
     }
 }
 
